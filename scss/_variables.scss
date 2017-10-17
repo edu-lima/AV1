@@ -56,7 +56,7 @@ $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
-$gray-800: #343a40 !default;
+$gray-800: #606060 !default;
 $gray-900: #212529 !default;
 $black:  #000 !default;
 
@@ -72,7 +72,7 @@ $grays: (
   900: $gray-900
 ) !default;
 
-$blue:    #007bff !default;
+$blue:    #41a2ef !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -156,7 +156,7 @@ $sizes: (
 // Settings for the `<body>` element.
 
 $body-bg:       $white !default;
-$body-color:    $gray-900 !default;
+$body-color:    $gray-800 !default;
 
 // Links
 //
@@ -795,14 +795,14 @@ $breadcrumb-divider:            "/" !default;
 
 // Carousel
 
-$carousel-control-color:                      $white !default;
+$carousel-control-color:                      $gray-800 !default;
 $carousel-control-width:                      15% !default;
 $carousel-control-opacity:                    .5 !default;
 
-$carousel-indicator-width:                    30px !default;
-$carousel-indicator-height:                   3px !default;
-$carousel-indicator-spacer:                   3px !default;
-$carousel-indicator-active-bg:                $white !default;
+$carousel-indicator-width:                    10px !default;
+$carousel-indicator-height:                   10px !default;
+$carousel-indicator-spacer:                   10px !default;
+$carousel-indicator-active-bg:                $gray-800;
 
 $carousel-caption-width:                      70% !default;
 $carousel-caption-color:                      $white !default;

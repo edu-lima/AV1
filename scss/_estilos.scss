@@ -1,0 +1,91 @@
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.session {padding: 75px;}
+
+.titleSession {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.topo {
+    padding: 20px;
+    background: #41a2ef;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.menu{
+    text-align: right;
+    }
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: all 0.3s;
+    margin-left: 20px;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.banner {
+    padding: 20px 0 75px 0;
+    background: #41a2ef;
+    
+    h1 {
+        font-size: 54px;
+        color: #ffffff;
+    }
+    
+    p {
+        font-size: 22px;
+        color: #ffffff;
+    }
+    
+    input {
+        cursor: pointer;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        padding: 8px 28px;
+        text-decoration: none;
+        transition: all .3s ease;
+    }
+    
+    p span {
+        font-size: 32px;
+    }
+}
+
+.depoimentos {
+    background: #eeeeee;
+    text-align: center;
+}
+
+.depoimentos p{
+    color: #606060;
+}
+
+.depoimentos h2{
+    color: #606060;
+    font-size: 24px;
+}
+
+.temp {
+    display: none;
+}
+
+.features {
+    
+}
+
+

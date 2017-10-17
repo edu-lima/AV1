@@ -11,12 +11,14 @@
         
         <!--        header-->
 
-        <div class="topo" style="background:grey">
+        <div class="topo">
             
             <div class="container"> 
                 <div class="row">
-                    <div class="col-md-4">logo</div>
-                    <div class="col-md-8">
+                    <div class="logo col-md-4">
+                        <img src="imgs/logo.svg">   
+                    </div>
+                    <div class="menu col-md-8">
                             <ul>
                                 <li>Download</li>
                                 <li>Features</li>
@@ -24,7 +26,7 @@
                                 <li>Video</li>
                                 <li>About us</li>
                                 <li>Contact</li>
-                            </ul>
+                            </ul>   
                     </div>
                 </div>
             </div>
@@ -32,15 +34,16 @@
         
         <!--        banner-->
         
-        <div class="banner" style="background:blue">
+        <div class="banner">
             <div class="container"> 
                 <div class="row">
                     <div class="col-md-4">
                         <img class="col-md-6" src="imgs/header-iphone-6s-black-and-white.png">
                     </div>
                     <div class="col-md-8">
-                        <h1 class="">Mobile App Landing Page</h1>
-                        <p class="">$18.99 - download Onetouch mobile app and prepare for having a lot of fun communicating with your team</p>             <input type="button" value="Google Store">
+                        <h1>Mobile App Landing Page</h1>
+                        <p><span>$18.99</span> - download Onetouch mobile app and prepare for having a lot of fun communicating with your team</p>             
+                        <input type="button" value="Google Store">
                         <input type="button" value="Apple Store">
                     </div>
                 </div>
@@ -49,33 +52,45 @@
         
         <!--        depoimemtos-->
         
-        <div class="depoimentos" style="background:grey">
+        <div class="depoimentos session">
             <div class="container">
-                <div class="depoimento">
-                    <p>"I've been searching for a capable piece mobile application that can help us better manage our team communication and Onetouch is just that, a reliable mobile app that enables better team collaboration. I recommend it to everyone that has big projects to manage and large teams to work with. You will not regret downloading it."</p>
+                
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                    
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <p>"I've been searching for a capable piece mobile application that can help us better manage our team communication and Onetouch is just that, a reliable mobile app that enables better team collaboration. I recommend it to everyone that has big projects to manage and large teams to work with. You will not regret downloading it."</p>
                     <h2>Ron Gates, MoveUp - General Manager</h2>
-                </div>
-                <div class="depoimento">
-                    <p>"Besides being built to handle team communication, Onetouch works great for project management too. Generally it's helpful for any process where you have lots of team members that need to be controlled and evaluated. Onetouch is the right app for anyone that wants to be organized and professional in the way they interact with their co-workers."</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Besides being built to handle team communication, Onetouch works great for project management too. Generally it's helpful for any process where you have lots of team members that need to be controlled and evaluated. Onetouch is the right app for anyone that wants to be organized and professional in the way they interact with their co-workers."</p>
                     <h2>Lara Smith, OnlyTwo - Managing Partner</h2>
-                </div>
-                <div class="depoimento">
-                    <p>"Onetouch's development team handled all our request beautifully and managed to integrate Onetouch into our business flow without major problems. The app runs smoothly and has a fluid User Interface that can be used right away without any training. The feature that impressed me the most was the reporting section."</p>
+                    </div>
+                    <div class="carousel-item">
+                      <p>"Onetouch's development team handled all our request beautifully and managed to integrate Onetouch into our business flow without major problems. The app runs smoothly and has a fluid User Interface that can be used right away without any training. The feature that impressed me the most was the reporting section."</p>
                     <h2>Bob Dole, Ignite - IT Manager</h2>
-                </div>                
+                    </div>
+                  </div>
+                </div>               
             </div>
         </div>  
         
         <!--        features-->
         
-        <div class="features" style="background:blue">
+        <div class="features session">
             <div class="container">
                  <div class="row"> 
                      <div class="col-md-12">
                          
 <!--                         title-->
                 
-                        <h1>Features</h1>
+                        <h1 class="titleSession">Features</h1>
                         <p>Onetouch was built to help small and large teams with their communication and collaboration processes, improving management capabilities while enabling its users to focus on meeting the project's objectives. Check out the features:</p>
 
                      </div>
@@ -87,7 +102,7 @@
                         <div class="row">
                             <div class="col-md-2">img</div>
                             <div class="col-md-10">
-                                <h1>Deadline Estimation</h1>
+                                <h2>Deadline Estimation</h2>
                                 <p>Onetouch's algorithms are built to help you achieve projects' objectives while reducing costs through optimization</p>
                             </div>
                         </div>
@@ -95,7 +110,7 @@
                         <div class="row">
                             <div class="col-md-2">img</div>
                             <div class="col-md-10">
-                                <h1>Great Scalability</h1>
+                                <h2>Great Scalability</h2>
                                 <p>Works smoothly even on older generation smartphone hardware due to our efforts invested in design & coding</p>
                             </div>
                         </div>
@@ -103,7 +118,7 @@
                         <div class="row">
                             <div class="col-md-2">img</div>
                             <div class="col-md-10">
-                                <h1>User Management</h1>
+                                <h2>User Management</h2>
                                 <p>Onetouch offers the complete range of user control options from complete administrator rights to read-only access</p>
                             </div>
                         </div>                     
@@ -123,7 +138,7 @@
                         <div class="row">
                             <div class="col-md-2">img</div>
                             <div class="col-md-10">
-                                <h1>Language Options</h1>
+                                <h2>Language Options</h2>
                                 <p>Choose from one of the 40 languages that come pre-installed with Onetouch and start working right away</p>
                             </div>
                         </div>
@@ -151,10 +166,10 @@
         
 <!--        description-->
         
-        <div style="background:grey">
+        <div class="description session">
             <div class="container"> 
                 
-                <h1>Description</h1>
+                <h1 class="titleSession">Description</h1>
                 
                 <div class="row">
                     <div class="col-md-8">
@@ -377,7 +392,9 @@ We enjoy creating solutions that bring people together with the help of technolo
                 <p>Copyright © Onetouch - Mobile App Landing Page Template</p>
             </div>
         </div>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     </body>
     
 </html>
