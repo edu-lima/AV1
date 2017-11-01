@@ -1,17 +1,38 @@
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: Poppins, sans-serif;
+}
 
-.session {padding: 75px;}
+p, span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
 
-.titleSession {
-    text-align: center;
-    font-size: 36px;
-    text-transform: uppercase;
+.session {
+    padding: 75px;
+
+
+    .titleSession {
+        height: 80px;
+        text-align: center;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    
+    .caption {
+        padding-bottom: 60px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
 }
 
 .topo {
     padding: 20px;
     background: #41a2ef;
+
 }
+
+
 
 .logo img{
     height: 50px;
@@ -19,7 +40,12 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 .menu{
     text-align: right;
+    
+    .active{
+        opacity: 1;
+        
     }
+}
 
 .menu ul li{
     display: inline;
@@ -42,7 +68,9 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
     background: #41a2ef;
     
     h1 {
-        font-size: 54px;
+        font-size: 64px;
+        line-height: 74px;
+        font-weight: 700;
         color: #ffffff;
     }
     
@@ -51,19 +79,49 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
         color: #ffffff;
     }
     
-    input {
-        cursor: pointer;
-        color: #fff;
-        border: 2px solid #fff;
+    a {
+        transition: 0.3s;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 700;
+        border: 2px solid #ffffff;
         border-radius: 3px;
-        padding: 8px 28px;
-        text-decoration: none;
-        transition: all .3s ease;
     }
+    
+    a:hover {
+        text-decoration: none;
+        color: #41a2ef;
+        background: #ffffff;
+    }
+    
+    .icon {padding-right: 10px;}
+    
+    
+ 
     
     p span {
         font-size: 32px;
     }
+    
+    img {
+        height: 500px;
+    }
+    
+    
+    .spaceTop {
+        align-items: center;
+//        background: blue;
+    }
+}
+.st0{fill:red;}
+.st1{fill:#FFFFFF;}
+
+.spaceLeft{
+    margin-left: 10px;
 }
 
 .depoimentos {
@@ -85,7 +143,65 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 }
 
 .features {
+
+    .icon {
+        color:#41a2ef;
+    }
+    
+    h2 { font-size: 21px;}
+    
+    p{
+        font-size: 16px;
+        color: #606060;
+    }
+    
+    .space {
+        padding-top: 75px;
+    }
     
 }
+
+.description, .aboutUs{
+    background-color: #eeeeee;
+    
+    h2{ 
+        font-weight: 500;
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    
+    a {
+        transition: 0.3s;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        background: #36b57c;
+        line-height: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        background: #41a2ef;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+}
+
+
+
+
+
+
 
 

@@ -6228,16 +6228,24 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Poppins, sans-serif; }
+
+p, span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px; }
 
 .session {
   padding: 75px; }
-
-.titleSession {
-  text-align: center;
-  font-size: 36px;
-  text-transform: uppercase; }
+  .session .titleSession {
+    height: 80px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase; }
+  .session .caption {
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 16px; }
 
 .topo {
   padding: 20px;
@@ -6248,6 +6256,8 @@ body {
 
 .menu {
   text-align: right; }
+  .menu .active {
+    opacity: 1; }
 
 .menu ul li {
   display: inline;
@@ -6267,21 +6277,45 @@ body {
   padding: 20px 0 75px 0;
   background: #41a2ef; }
   .banner h1 {
-    font-size: 54px;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: 700;
     color: #ffffff; }
   .banner p {
     font-size: 22px;
     color: #ffffff; }
-  .banner input {
-    cursor: pointer;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    padding: 8px 28px;
+  .banner a {
+    transition: 0.3s;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    border-radius: 3px; }
+  .banner a:hover {
     text-decoration: none;
-    transition: all .3s ease; }
+    color: #41a2ef;
+    background: #ffffff; }
+  .banner .icon {
+    padding-right: 10px; }
   .banner p span {
     font-size: 32px; }
+  .banner img {
+    height: 500px; }
+  .banner .spaceTop {
+    align-items: center; }
+
+.st0 {
+  fill: red; }
+
+.st1 {
+  fill: #FFFFFF; }
+
+.spaceLeft {
+  margin-left: 10px; }
 
 .depoimentos {
   background: #eeeeee;
@@ -6296,5 +6330,40 @@ body {
 
 .temp {
   display: none; }
+
+.features .icon {
+  color: #41a2ef; }
+.features h2 {
+  font-size: 21px; }
+.features p {
+  font-size: 16px;
+  color: #606060; }
+.features .space {
+  padding-top: 75px; }
+
+.description, .aboutUs {
+  background-color: #eeeeee; }
+  .description h2, .aboutUs h2 {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 20px; }
+  .description p, .aboutUs p {
+    font-size: 16px; }
+  .description a, .aboutUs a {
+    transition: 0.3s;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: #36b57c;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 3px; }
+  .description a:hover, .aboutUs a:hover {
+    text-decoration: none;
+    background: #41a2ef; }
+  .description ul li, .aboutUs ul li {
+    list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
