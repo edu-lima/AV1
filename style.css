@@ -6228,10 +6228,10 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-h1, h2, h3, h4, h5, h6, a {
+h1, a {
   font-family: Poppins, sans-serif; }
 
-p, span {
+p, span, h2, h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 22px; }
 
@@ -6341,29 +6341,80 @@ p, span {
 .features .space {
   padding-top: 75px; }
 
-.description, .aboutUs {
+.description, .news {
   background-color: #eeeeee; }
-  .description h2, .aboutUs h2 {
+  .description h2, .news h2 {
     font-weight: 500;
     font-size: 22px;
     padding-bottom: 20px; }
-  .description p, .aboutUs p {
+  .description p, .news p {
     font-size: 16px; }
-  .description a, .aboutUs a {
-    transition: 0.3s;
-    display: inline-block;
-    width: 200px;
-    height: 50px;
-    background: #36b57c;
-    line-height: 50px;
+  .description ul li, .news ul li {
+    list-style: none; }
+
+.video {
+  text-align: center;
+  background: #36b57c; }
+  .video p {
+    padding-top: 20px;
     text-align: center;
     color: #ffffff;
-    font-weight: 700;
-    border-radius: 3px; }
-  .description a:hover, .aboutUs a:hover {
-    text-decoration: none;
-    background: #41a2ef; }
-  .description ul li, .aboutUs ul li {
-    list-style: none; }
+    font-size: 16px; }
+
+.description a, .aboutUs a, .news a {
+  transition: 0.3s;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: #36b57c;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 3px; }
+.description a:hover, .aboutUs a:hover, .news a:hover {
+  text-decoration: none;
+  background: #41a2ef; }
+
+.aboutUs {
+  text-align: center; }
+  .aboutUs p {
+    padding: 40px; }
+  .aboutUs .image {
+    width: 945px; }
+  .aboutUs img {
+    width: 250px; }
+  .aboutUs h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 60px 0 30px 0; }
+  .aboutUs h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600; }
+  .aboutUs p {
+    font-size: 16px; }
+
+.news {
+  text-align: center; }
+  .news p {
+    padding-bottom: 20px; }
+  .news input {
+    margin-right: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black; }
+
+.team {
+  text-align: center;
+  color: #ffffff;
+  background: #41a2ef; }
+  .team img {
+    margin-bottom: 20px; }
+  .team h2, .team h3 {
+    font-size: 16px; }
+  .team h3 {
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
