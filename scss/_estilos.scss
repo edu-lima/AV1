@@ -1,3 +1,4 @@
+
 h1, a {
     font-family: Poppins, sans-serif;
 }
@@ -73,7 +74,6 @@ p, span, h2, h3 {
     }
     
     p {
-        font-size: 22px;
         color: #ffffff;
     }
     
@@ -135,9 +135,6 @@ p, span, h2, h3 {
     font-size: 24px;
 }
 
-.temp {
-    display: none;
-}
 
 .features {
 
@@ -152,10 +149,22 @@ p, span, h2, h3 {
         color: #606060;
     }
     
-    .space {
-        padding-top: 75px;
+    .feature {
+        padding-bottom: 75px;
     }
     
+    .d-block {
+        padding: 20px 40px;
+    }
+}
+
+.slide {
+        padding-bottom: 40px;
+    }
+
+.description img {
+    width: 100%; 
+    height: auto;
 }
 
 .description, .news {
@@ -191,7 +200,7 @@ p, span, h2, h3 {
     }
 }
 
-.description, .aboutUs, .news {
+.description, .aboutUs, .news, .contact {
     a {
         transition: 0.3s;
         display: inline-block;
@@ -248,15 +257,20 @@ p, span, h2, h3 {
     p{
         padding-bottom: 20px;
     }
-    
-    input{
+
+}
+
+.input{
         margin-right: 20px;
         border: 0;
         outline: 0;
         background: transparent;
         border-bottom: 1px solid black;
     }
-    
+
+.textarea{
+    width: 555px;
+    margin: 20px 0;
 }
 
 .team {
@@ -278,6 +292,107 @@ p, span, h2, h3 {
     }
     
 }
+
+.social {
+    padding: 20px;
+    background: #36b57c;
+    
+    .fa{
+        margin-right: 20px;
+        cursor: pointer;
+        color: #ffffff;
+        transition: all 0.3s;
+        opacity: 0.8;
+    }
+    
+    .fa:hover{
+        opacity: 1;
+    }
+    
+    .content{
+        min-width: 100%;
+        text-align: center;
+    }
+}
+
+.contact{
+    text-align: center;
+    
+    p{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    
+    ul li{
+        list-style: none;
+        display: inline;
+        margin-right: 20px;
+    }
+}
+
+.copyR{
+    text-align: center;
+    color: #ffffff;
+    background-color: #41a2ef;
+    padding: 20px 0 5px 0;
+    p{font-size: 14px;}
+}
+
+
+@media screen and (max-width: 992px) {
+    .menu ul {display: none;}
+    
+    .banner{text-align: center;}
+    .banner img {padding-bottom: 20px;}
+    .banner h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+        .features{
+        
+        .icon {
+            padding: 15px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding-bottom: 35px;
+        }
+            
+
+    }
+    
+    .description {
+        text-align: center;
+        
+        img {
+            padding: 35px;
+        }
+    }
+    
+}//fim 992
+
+@media screen and (max-width: 576px) {
+    .banner img {
+        width: 70%;
+        height: auto;
+    }
+    
+        .banner h1 {
+        font-size: 42px;
+        line-height: 52px;
+    } 
+    
+    .banner a{
+        margin: 20px 0;
+    }
+    
+    .session{
+       padding:40px 10px;
+    }
+    
+}//fim 576
 
 
 
